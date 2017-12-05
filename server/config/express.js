@@ -14,9 +14,6 @@ module.exports = function(app){
         .then('api')
         .then('routes')
         .into(app);
-
-
-    app.use('/',express.static(__dirname+'/../../client/dist'));
     
     app.use(function( req, res, next){
         var err = new Error("Not Found!");

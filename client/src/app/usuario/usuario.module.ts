@@ -5,7 +5,6 @@ import { UsuarioComponent } from './usuario.component';
 @NgModule({
     declarations : [UsuarioComponent],
     exports : [UsuarioComponent],
-
 })
 export class UsuarioModule {
 
